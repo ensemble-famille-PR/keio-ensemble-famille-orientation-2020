@@ -1,0 +1,357 @@
+@charset "utf-8";
+
+/*reset css start*/
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #333333;
+  color: #ffffff;
+  font-size: 15px;
+  line-height: 2;
+}
+
+p, h1, h2, h3, h4, h5, h6{
+  margin-top: 0;
+}
+
+img {
+  vertical-align: bottom;
+}
+
+ul{
+  margin: 0;
+  padding: 0;
+}
+/*reset css end*/
+
+/*defining default start*/
+a {
+  color: #ff4500;
+  text-decoration: none;
+}
+
+a:visited{
+  color: #788d98;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+/*defining default end*/
+
+/*header start*/
+header{
+  width: 960px;
+  height: 86px;
+  margin: 0 auto;
+  background-color: transparent;
+}
+
+.logo {
+  float: left;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 121px;
+  height: 36px;
+}
+
+.logo img{
+  float: left;
+  width: 121px;
+  height: 36px;
+}
+
+header p{
+  float: left;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: #ffffff;
+  font-size: 36px;
+  line-height: 1;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+.global-SNS-Link{
+  float: right;
+}
+
+.global-SNS-Link li{
+  float: left;
+  margin: 10px;
+  font-size: 10px;
+  list-style: none;
+  width: 36px;
+  height: 36px;
+}
+
+.global-SNS-Link li img{
+  float: left;
+  list-style: none;
+  width: 36px;
+  height: 36px;
+}
+
+}
+.global-SNS-Link li a{
+  color #ffffff;
+}
+
+.global-SNS-Link li a:hover {
+  border-bottom: 2px solid #ffffff;
+  padding bottom: 3px;
+  text-decoration: none;
+}
+
+header .clearfix:after {
+  content:"";
+  display: block;
+}
+
+.global-nav {
+  clear: right;
+  display: block;
+}
+
+.global-nav li{
+  display: inline-block;
+  width: 185px;
+  margin: 0 1px;
+  text-align: center;
+  font size: 20px;
+  list-style: none;
+  border-radius: 5px;
+  font-family: 'Oswald', sans-serif;
+}
+
+.global-nav li:hover {
+  background-color: #ff4500;
+  color: #ffffff;
+}
+
+.global-nav li a:hover {
+  text-decoration: none;
+}
+
+/*header end*/
+
+/*body start*/
+#wrap {
+  clear: both;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 35px 0;
+}
+
+.content{
+  width: 920px;
+  margin: 0 auto;
+  background-color: transparent;
+  border-radius: 10px;
+}
+
+.main-center {
+  width: 900px;
+  margin: 0 auto;
+}
+
+h1{
+  font-size: 100pt;
+  line-height: 1;
+  color: #ffffff;
+  font-family: 'Oswald', sans-serif;
+  margin-bottom: 50px;
+  border-bottom: 1px solid #ffffff;
+
+}
+
+h2{
+  font-size: 24px;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+.icon:before{
+  content: "";
+  padding-right: 10px;
+  border-left: 7px solid #ff4500;
+}
+
+#index {
+  background-image: url(../images/Ensemble.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.global-nav li{
+  background-color: #ffffff;
+  color: #ff5400;
+}
+
+.content{
+  margin-top: 150px;
+  background-color: transparent;
+}
+
+#index .LinkFromHome-list{
+  text-align: center;
+  font-size: 36px;
+  list-style: none;
+  font-family: 'Oswald', sans-serif;
+}
+
+#contact {
+  background-image: url(../images/Spring2.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+#info {
+  background-image: url(../images/Practice.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+#about {
+  background-image: url(../images/Assemble2.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+#link {
+  background-image: url(../images/LiveSummer2.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+/*body end*/
+
+footer{
+  text-align: center;
+  color: #ffffff;
+  background-color: #000000;
+  padding: 20px 0;
+}
+
+footer small {
+  font-size: 12px;
+}
+
+
+
+@media screen and (max-width:600px){
+/*画面サイズが600px以下の場合に適応*/
+  
+  body{
+    font-size: 3.5vw;
+  }
+  
+  h1{
+    font-size: 23vw;
+  }
+  
+  h2{
+    font-size: 6vw;
+  }
+  
+  header{
+    width: auto;
+    margin: 0.5%;
+  }
+  
+  .logo{
+    float: none;
+    margin: 0 auto;
+    margin-top: 30px;
+    text-align: center;
+    width: 70vw;
+    height: 21vw;
+  }
+  
+  .logo img{
+    float: none;
+    width: 70vw;
+    height: 21vw;
+  }
+  
+  header p{
+    float: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #ffffff;
+    font-size: 5vw;
+    line-height: 1;
+    text-align: center;
+  }
+
+  
+  .global-nav{
+    float: none;
+    margin-top: 40px;
+    text-align: center;
+  }
+  
+  .global-nv li{
+    display: inline;
+    float: none;
+    margin: 0 8px;
+  }
+  
+  #wrap{
+    margin-top: 40px;
+    padding: 35px 0 0;
+  }
+  
+  .content{
+    width: 100%
+  }
+  
+  .global-nav {
+    float: none;
+    clear: right;
+    display: block;
+  }
+  
+  
+  .global-nav li{
+    float: left;
+    display: inline-block;
+    width: 47vw;
+    margin:  1vw;
+    text-align: center;
+    font size: 20px;
+    list-style: none;
+    border-radius: 5px;
+    font-family: 'Oswald', sans-serif;
+  }
+  
+  .main-center {
+    width: 95%;
+    margin: 0 auto;
+    border-radius: 5px;
+  }
+  
+  #index {
+    background-image: url(../images/EnsemblePhone.jpg);
+  }
+  #about {
+    background-image: url(../images/AssemblePhone.jpg);
+  }
+  #info {
+    background-image: url(../images/PracticePhone.jpg);
+  }
+  #contact {
+    background-image: url(../images/SpringPhone2.jpg);
+  }
+  #link {
+    background-image: url(../images/LiveSummerPhone.jpg);
+  }
+
+}
