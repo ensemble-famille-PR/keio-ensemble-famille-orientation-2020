@@ -340,18 +340,23 @@ footer small {
   
   #index {
     background-image: url(../images/EnsemblePhone.jpg);
+    max-width: 100%;
   }
   #about {
     background-image: url(../images/AssemblePhone.jpg);
+    max-width: 100%;
   }
   #info {
     background-image: url(../images/PracticePhone.jpg);
+    max-width: 100%;
   }
   #contact {
     background-image: url(../images/SpringPhone2.jpg);
+    max-width: 100%;
   }
   #link {
     background-image: url(../images/LiveSummerPhone.jpg);
+    max-width: 100%;
   }
 
 }
