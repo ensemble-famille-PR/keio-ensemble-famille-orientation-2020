@@ -1,6 +1,8 @@
 <?xml version="1.0" encording="UTF-8"?>
-<urlset xmlns="https://sitemaps.org/schemas/sitemap/0.9">
-<url><loc>https://ensemble-famille-pr.github.io/keio-ensemble-famille-orientation-2020/index.html</loc>
+<urlset
+xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+<loc>https://ensemble-famille-pr.github.io/keio-ensemble-famille-orientation-2020/index.html</loc>
 <lastmod>2020-03-13</lastmod>
 <changefreq>daily</changefreq>
 <priority>1.0</priority>
