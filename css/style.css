@@ -203,6 +203,15 @@ h2{
   font-family: 'Oswald', sans-serif;
 }
 
+#index th{
+  width: 150px;
+}
+
+#index td{
+  width: 640px;
+  padding: 0 0 0 40px;
+}
+
 #contact:before {
   content: "";
   display: block;
@@ -226,6 +235,25 @@ h2{
   height: 100vh;
   background: url(../images/Practice.jpg) center no-repeat;
   background-size: cover;
+}
+
+#info .request th{
+  width: 200px;
+  padding: 5px 0;
+  border: 1px solid #ffffff;
+}
+
+#info .request td{
+  width: 200px;
+  padding: 5px 0;
+  border: 1px solid #ffffff;
+  text-align: center;
+}
+
+table{
+  border-spacing: 0;
+  border-collapse: collapse;
+  margin: 0 0 40px 0;
 }
 
 #about:before {
