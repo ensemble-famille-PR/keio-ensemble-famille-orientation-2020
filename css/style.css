@@ -10,10 +10,9 @@ body {
   line-height: 2;
 }
 
-p, h1, h2, h3, h4, h5, h6, small, table {
+p, h1, h2, h3, h4, h5, h6, small, table{
   margin-top: 0;
   font-family: 'Noto Sans JP', sans-serif;
-
 }
 
 img {
@@ -242,7 +241,7 @@ h2{
 }
   
 #info .request th{
-  width: 200px;
+  width: 150px;
   padding: 5px 0;
   border: 1px solid #ffffff;
 }
@@ -309,6 +308,20 @@ table{
   float: left;
   text-align: center;
 }
+
+#info .date th{
+  width: 100px;
+  padding: 5px 0;
+  border: 1px solid #ffffff;
+}
+
+#info .date td{
+  width: 200px;
+  padding: 5px 0;
+  border: 1px solid #ffffff;
+  text-align: center;
+}
+
 
 #about:before {
   content: "";
