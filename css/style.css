@@ -119,7 +119,7 @@ header .clearfix:after {
   font size: 20px;
   list-style: none;
   border-radius: 5px;
-  font-family: 'Impact', sans-serif;
+  font-family: 'Anton', sans-serif;
 }
 
 .global-nav li:hover {
@@ -158,7 +158,7 @@ header .clearfix:after {
   font-size: 100pt;
   line-height: 1;
   color: #ffffff;
-  font-family: 'Impact', sans-serif;
+  font-family: 'Anton', sans-serif;
   border-bottom: 1px solid #ffffff;
   margin-bottom: 10px;
   line-height: 1.3
@@ -206,7 +206,7 @@ h2{
   text-align: center;
   font-size: 36px;
   list-style: none;
-  font-family: 'Impact', sans-serif;
+  font-family: 'Anton', sans-serif;
 }
 
 #index th{
@@ -289,7 +289,7 @@ table{
   border-radius: 50px;
   background-color: #ff5400;
   font-size: 30px;
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Anton', sans-serif;
   line-height: 1;
   text-align: center;
   float: right;
@@ -493,7 +493,7 @@ footer small {
     border-radius: 12.5vw;
     background-color: #ff5400;
     font-size: 5vw;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Anton', sans-serif;
     line-height: 1;
     text-align: center;
     float: left;
