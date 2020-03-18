@@ -1,2 +1,0 @@
-RewriteEngine on RewriteCond %{THE_REQUEST}^.*/index.html
-RewriteRule ^(.*)index.html$ https://ensemble-famille-pr.github.io/keio-ensemble-famille-orientation-2020/$1 [L,R=301]
