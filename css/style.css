@@ -317,6 +317,19 @@ h2{
   margin-bottom: 0;
 }
 
+#index th{
+  width: 150px;
+  padding: 5px 0;
+  border: 1px solid #ffffff;
+}
+
+#index td{
+  width: 800px;
+  padding: 5px 0;
+  border: 1px solid #ffffff;
+}
+
+
 #index .more-button{
   color: #ff5400;
   background-color: #ffffff;
