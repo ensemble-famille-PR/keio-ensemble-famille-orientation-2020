@@ -367,6 +367,10 @@ h2{
   background-size: cover;
 }
 
+#info span{
+  color: #ff5400;
+}
+
 #info .request p small{ 
     margin-bottom: 10px;
 }
